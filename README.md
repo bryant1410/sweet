@@ -2,7 +2,7 @@ Network device configuration backups and change alerts for the 21st century - in
 
 See: http://gosweet.org
 
-##Features:
+## Features:
 * Stores device configs in Git
 * Simple configuration file
 * Single binary - only runtime dependency is Git
@@ -12,7 +12,7 @@ See: http://gosweet.org
 * Supports external collection scripts (such as clogin, jlogin, etc.)
 * Currently supports Linux and OSX
 
-##Quickstart:
+## Quickstart:
 * Download the sweet binary for your system: https://github.com/AppliedTrust/sweet/releases
 * Make it executable: chmod 755 sweet32
 * Create a minimal sweet.conf file with device access info:
@@ -25,7 +25,7 @@ pass = SecretPW4sweet
 * Start sweet with: sweet32 --web sweet.conf
 * Check out the web status at: http://localhost:5000
 
-##Usage:
+## Usage:
 * All command-line flags can also be set in the config file.
 * See the sample config for more options: https://github.com/AppliedTrust/sweet/blob/master/sweet-sample.conf
 ```
@@ -50,11 +50,11 @@ Options:
   -h, --help                Show this screen.
 ```
 
-##Authors:
+## Authors:
 * Randy Else: https://appliedtrust.com/randy
 * Trent R. Hein: https://appliedtrust.com/trent
 * Ned McClain: https://appliedtrust.com/ned
 
-##Contributors:
+## Contributors:
 * jcollie: https://github.com/jcollie
 
